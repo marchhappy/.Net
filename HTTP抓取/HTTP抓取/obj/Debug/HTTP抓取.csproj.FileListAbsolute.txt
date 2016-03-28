@@ -1,0 +1,12 @@
+d:\documents\visual studio 2013\Projects\HTTP抓取\HTTP抓取\bin\Debug\HTTP抓取.exe.config
+d:\documents\visual studio 2013\Projects\HTTP抓取\HTTP抓取\bin\Debug\HTTP抓取.exe
+d:\documents\visual studio 2013\Projects\HTTP抓取\HTTP抓取\bin\Debug\HTTP抓取.pdb
+d:\documents\visual studio 2013\Projects\HTTP抓取\HTTP抓取\obj\Debug\HTTP抓取.Form1.resources
+d:\documents\visual studio 2013\Projects\HTTP抓取\HTTP抓取\obj\Debug\HTTP抓取.Properties.Resources.resources
+d:\documents\visual studio 2013\Projects\HTTP抓取\HTTP抓取\obj\Debug\HTTP抓取.csproj.GenerateResource.Cache
+d:\documents\visual studio 2013\Projects\HTTP抓取\HTTP抓取\obj\Debug\HTTP抓取.exe
+d:\documents\visual studio 2013\Projects\HTTP抓取\HTTP抓取\obj\Debug\HTTP抓取.pdb
+d:\documents\visual studio 2013\Projects\HTTP抓取\HTTP抓取\bin\Debug\PacketDotNet.dll
+d:\documents\visual studio 2013\Projects\HTTP抓取\HTTP抓取\bin\Debug\SharpPcap.dll
+d:\documents\visual studio 2013\Projects\HTTP抓取\HTTP抓取\bin\Debug\PacketDotNet.xml
+d:\documents\visual studio 2013\Projects\HTTP抓取\HTTP抓取\bin\Debug\SharpPcap.xml
