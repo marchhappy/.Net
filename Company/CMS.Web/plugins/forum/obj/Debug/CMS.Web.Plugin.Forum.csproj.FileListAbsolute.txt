@@ -1,0 +1,29 @@
+D:\Working\CMS.Web\bin\CMS.Web.Plugin.Forum.dll
+D:\Working\CMS.Web\bin\CMS.Web.Plugin.Forum.pdb
+D:\Working\CMS.Web\plugins\forum\obj\Debug\CMS.Web.Plugin.Forum.dll
+D:\Working\CMS.Web\plugins\forum\obj\Debug\CMS.Web.Plugin.Forum.pdb
+D:\Working\CMS.Web\plugins\forum\obj\Debug\CMS.Web.Plugin.Forum.csprojResolveAssemblyReference.cache
+E:\Code\CMS.Web\bin\CMS.Web.Plugin.Forum.dll
+E:\Code\CMS.Web\bin\CMS.Web.Plugin.Forum.pdb
+E:\Code\CMS.Web\plugins\forum\obj\Debug\CMS.Web.Plugin.Forum.dll
+E:\Code\CMS.Web\plugins\forum\obj\Debug\CMS.Web.Plugin.Forum.pdb
+E:\Code\CMS.Web\plugins\forum\obj\Debug\CMS.Web.Plugin.Forum.csprojResolveAssemblyReference.cache
+D:\Working\Code\CMS.Web\bin\CMS.Web.Plugin.Forum.dll
+D:\Working\Code\CMS.Web\bin\CMS.Web.Plugin.Forum.pdb
+D:\Working\Code\CMS.Web\plugins\forum\obj\Debug\CMS.Web.Plugin.Forum.csprojResolveAssemblyReference.cache
+D:\Working\Code\CMS.Web\plugins\forum\obj\Debug\CMS.Web.Plugin.Forum.dll
+D:\Working\Code\CMS.Web\plugins\forum\obj\Debug\CMS.Web.Plugin.Forum.pdb
+E:\webs\Company\CMS.Web\bin\CMS.Web.Plugin.Forum.dll
+E:\webs\Company\CMS.Web\bin\CMS.Web.Plugin.Forum.pdb
+E:\webs\Company\CMS.Web\plugins\forum\obj\Debug\CMS.Web.Plugin.Forum.dll
+E:\webs\Company\CMS.Web\plugins\forum\obj\Debug\CMS.Web.Plugin.Forum.pdb
+E:\webs\Company\CMS.Web\plugins\forum\obj\Debug\CMS.Web.Plugin.Forum.csprojResolveAssemblyReference.cache
+E:\Company\CMS.Web\bin\CMS.Web.Plugin.Forum.dll
+E:\Company\CMS.Web\bin\CMS.Web.Plugin.Forum.pdb
+E:\Company\CMS.Web\plugins\forum\obj\Debug\CMS.Web.Plugin.Forum.dll
+E:\Company\CMS.Web\plugins\forum\obj\Debug\CMS.Web.Plugin.Forum.pdb
+E:\Develop Space\.Net\Company\CMS.Web\bin\CMS.Web.Plugin.Forum.dll
+E:\Develop Space\.Net\Company\CMS.Web\bin\CMS.Web.Plugin.Forum.pdb
+E:\Develop Space\.Net\Company\CMS.Web\plugins\forum\obj\Debug\CMS.Web.Plugin.Forum.csprojResolveAssemblyReference.cache
+E:\Develop Space\.Net\Company\CMS.Web\plugins\forum\obj\Debug\CMS.Web.Plugin.Forum.dll
+E:\Develop Space\.Net\Company\CMS.Web\plugins\forum\obj\Debug\CMS.Web.Plugin.Forum.pdb

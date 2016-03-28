@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="utf-8" />
+    <title>{site.seo_title}</title>
+    <meta name="keywords" content="{site.seo_keyword}" />
+    <meta name="description" content="{site.seo_description}" />    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="<%templateskin%>/plugin/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="<%templateskin%>/plugin/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="<%templateskin%>/plugin/pretty-photo/css/prettyPhoto.css" />
+    <link rel="stylesheet" href="<%templateskin%>/css/styleui.css" />
+    <link rel="stylesheet" href="<%templateskin%>/plugin/animate.min.css" />
+    <!-- / CSS Files -->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="<%templateskin%>/js/html5shiv.js"></script>
+    <script src="<%templateskin%>/js/respond.min.js"></script>
+    <![endif]-->
+    <script src="<%templateskin%>/plugin/jquery-1.10.2.min.js"></script>
+    <script src="<%templateskin%>/plugin/bootstrap/js/bootstrap.min.js"></script>
+    <script src="<%templateskin%>/script/animate.js"></script>
+    <script src="<%templateskin%>/plugin/jquery.cuteTime.min.js"></script>
+    <script src="<%templateskin%>/script/script.js"></script>
+</head>
+
+<body>
+<!--Header-->
+<%template src="_headerui.html"%>
+<!--/Header-->
+<script>SysNavnalSet(4);</script>
+
+
+<ul class="rank-list">
+        <%set DataTable hotList=get_article_list(channel, 54, 10, "status=0", "click desc,id desc")%>
+        <%loop dr2 hotList%>
+          <%if(dr2__loop__id==1)%>
+            <li class="active">
+          <%else%>
+            <li>
+          <%/if%>
+          <span><%datetostr({dr2[add_time]},MM-dd)%></span>
+          <i class="num">{dr2__loop__id}</i>
+          <a href="<%linkurl("news_show",{dr2[id]})%>">{dr2[title]}</a>
+        </li>
+        <%/loop%>
+      </ul>
+
+
+<!--Footer-->
+<%template src="_footerui.html"%>
+<!--/Footer-->
+</body>
+</html>

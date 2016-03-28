@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="wx.aspx.cs" Inherits="CMS.Web.api.weixin.wx" %>

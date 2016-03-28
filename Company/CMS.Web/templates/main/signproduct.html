@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="utf-8" />
+    <title>{site.seo_title}</title>
+    <meta name="keywords" content="{site.seo_keyword}" />
+    <meta name="description" content="{site.seo_description}" />    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="<%templateskin%>/plugin/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="<%templateskin%>/plugin/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="<%templateskin%>/plugin/pretty-photo/css/prettyPhoto.css" />
+    <link rel="stylesheet" href="<%templateskin%>/css/styleui.css" />
+    <link rel="stylesheet" href="<%templateskin%>/plugin/animate.min.css" />
+    <!-- / CSS Files -->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="<%templateskin%>/js/html5shiv.js"></script>
+    <script src="<%templateskin%>/js/respond.min.js"></script>
+    <![endif]-->
+    <script src="<%templateskin%>/plugin/jquery-1.10.2.min.js"></script>
+    <script src="<%templateskin%>/plugin/bootstrap/js/bootstrap.min.js"></script>
+    <script src="<%templateskin%>/script/animate.js"></script>
+    <script src="<%templateskin%>/plugin/jquery.cuteTime.min.js"></script>
+    <script src="<%templateskin%>/script/script.js"></script>
+</head>
+<body>
+    
+    <%template src="_headerui.html"%>
+	<script>SysNavnalSet(2);</script>
+	
+	<div class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <h1>产品服务</h1>
+                </div>
+                <div class="col-md-5">
+                    <ol class="breadcrumb pull-right">
+                        <li><a href="index.htm">首页</a></li>
+                        <li class="active">产品服务</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <section class="content content-light">
+        <div class="container">
+            			
+			<%=get_article_content("signproduct")%>
+            
+            <hr class="invisible" />
+            
+            <div class="content-light">
+            	<a class="blue-box form-curtain" href="<%linkurl("homeplan")%>">
+	                <i class="fa fa-plus-circle fa-4x"></i>
+	                <div>查看服务及套餐</div>
+	            </a>
+            </div>            
+        </div>
+    </section>
+	
+	<%template src="_footerui.html"%>
+        
+</body>
+</html>

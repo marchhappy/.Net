@@ -1,0 +1,46 @@
+﻿<div class="header">
+    <div class="width-th">
+        <a href="index.html" class="fl logo"><img src="<%templateskin%>/img/logo.png" /></a>
+        <div class="fr">
+            <a href="javascript:;" class="btn sign-in" id="userCenterDoorBtn1">登录</a>
+            <a href="javascript:;" class="btn sign-up" id="userCenterDoorBtn2">注册</a>
+        </div>
+        <div class="nav fr">
+            <ul>
+                <li><a id="snav1" href="<%linkurl(" index")%>" class="active"><span>首页</span></a></li>
+                <li><a id="snav2" href="<%linkurl(" signproduct")%>">产品服务</a></li>
+                <li><a id="snav3" href="<%linkurl(" homeplan")%>">套餐购买</a></li>
+                <li><a id="snav4" href="<%linkurl(" news_list",54)%>">新闻公告</a></li>
+                <li><a id="snav5" href="<%linkurl(" helpamount")%>">帮助信息</a></li>
+                <li><a id="snav6" href="<%linkurl(" signabout")%>">关于我们</a></li>
+                <li><a id="snav7" href="<%linkurl(" signcontact")%>">联系我们</a></li>
+            </ul>
+        </div>
+
+    </div>
+</div>
+<script type="text/javascript">
+    function SysNavnalSet(key) {
+        // 设置当前导航高亮
+        setTimeout(function () { $('#snav' + key).addClass('active'); }, 5);
+    }
+    $.ajax({
+        type: "POST",
+        url: "{config.webpath}tools/submit_ajax.ashx?action=user_check_login",
+        dataType: "json",
+        timeout: 20000,
+        success: function (data, textStatus) {
+            if (data.status == 1) {
+                var strOut = '<%linkurl("usercenter","exit")%>'; //退出
+                var strCnt = '<%linkurl("usercenter","index")%>'; //会员中心
+                $('#userCenterDoorBtn1').attr('href', strOut).html('退出');
+                $('#userCenterDoorBtn2').attr('href', strCnt).html('会员中心');
+            } else {
+                var strReg = '<%linkurl("register")%>'; //注册
+                var strSig = '<%linkurl("login")%>'; //登陆
+                $('#userCenterDoorBtn1').attr('href', strReg).html('注册');
+                $('#userCenterDoorBtn2').attr('href', strSig).html('登陆');
+            }
+        }
+    });
+</script>

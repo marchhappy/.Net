@@ -1,0 +1,30 @@
+D:\Working\CMS.Web\bin\CMS.Web.Plugin.Feedback.dll
+D:\Working\CMS.Web\bin\CMS.Web.Plugin.Feedback.pdb
+D:\Working\CMS.Web\plugins\feedback\obj\Debug\CMS.Web.Plugin.Feedback.dll
+D:\Working\CMS.Web\plugins\feedback\obj\Debug\CMS.Web.Plugin.Feedback.pdb
+D:\Working\CMS.Web\plugins\feedback\obj\Debug\CMS.Web.Plugin.Feedback.csprojResolveAssemblyReference.cache
+E:\Code\CMS.Web\bin\CMS.Web.Plugin.Feedback.dll
+E:\Code\CMS.Web\bin\CMS.Web.Plugin.Feedback.pdb
+E:\Code\CMS.Web\plugins\feedback\obj\Debug\CMS.Web.Plugin.Feedback.dll
+E:\Code\CMS.Web\plugins\feedback\obj\Debug\CMS.Web.Plugin.Feedback.pdb
+E:\Code\CMS.Web\plugins\feedback\obj\Debug\CMS.Web.Plugin.Feedback.csprojResolveAssemblyReference.cache
+D:\Working\Code\CMS.Web\bin\CMS.Web.Plugin.Feedback.dll
+D:\Working\Code\CMS.Web\bin\CMS.Web.Plugin.Feedback.pdb
+D:\Working\Code\CMS.Web\plugins\feedback\obj\Debug\CMS.Web.Plugin.Feedback.csprojResolveAssemblyReference.cache
+D:\Working\Code\CMS.Web\plugins\feedback\obj\Debug\CMS.Web.Plugin.Feedback.dll
+D:\Working\Code\CMS.Web\plugins\feedback\obj\Debug\CMS.Web.Plugin.Feedback.pdb
+E:\webs\Company\CMS.Web\bin\CMS.Web.Plugin.Feedback.dll
+E:\webs\Company\CMS.Web\bin\CMS.Web.Plugin.Feedback.pdb
+E:\webs\Company\CMS.Web\plugins\feedback\obj\Debug\CMS.Web.Plugin.Feedback.csprojResolveAssemblyReference.cache
+E:\webs\Company\CMS.Web\plugins\feedback\obj\Debug\CMS.Web.Plugin.Feedback.dll
+E:\webs\Company\CMS.Web\plugins\feedback\obj\Debug\CMS.Web.Plugin.Feedback.pdb
+E:\Company\CMS.Web\bin\CMS.Web.Plugin.Feedback.dll
+E:\Company\CMS.Web\bin\CMS.Web.Plugin.Feedback.pdb
+E:\Company\CMS.Web\plugins\feedback\obj\Debug\CMS.Web.Plugin.Feedback.csprojResolveAssemblyReference.cache
+E:\Company\CMS.Web\plugins\feedback\obj\Debug\CMS.Web.Plugin.Feedback.dll
+E:\Company\CMS.Web\plugins\feedback\obj\Debug\CMS.Web.Plugin.Feedback.pdb
+E:\Develop Space\.Net\Company\CMS.Web\bin\CMS.Web.Plugin.Feedback.dll
+E:\Develop Space\.Net\Company\CMS.Web\bin\CMS.Web.Plugin.Feedback.pdb
+E:\Develop Space\.Net\Company\CMS.Web\plugins\feedback\obj\Debug\CMS.Web.Plugin.Feedback.csprojResolveAssemblyReference.cache
+E:\Develop Space\.Net\Company\CMS.Web\plugins\feedback\obj\Debug\CMS.Web.Plugin.Feedback.dll
+E:\Develop Space\.Net\Company\CMS.Web\plugins\feedback\obj\Debug\CMS.Web.Plugin.Feedback.pdb

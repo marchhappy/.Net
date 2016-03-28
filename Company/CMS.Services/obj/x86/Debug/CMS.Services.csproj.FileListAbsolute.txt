@@ -1,0 +1,125 @@
+E:\Code\CMS.Services\bin\Debug\CMS.Services.exe
+E:\Code\CMS.Services\bin\Debug\CMS.Services.pdb
+E:\Code\CMS.Services\obj\x86\Debug\CMS.Services.exe
+E:\Code\CMS.Services\obj\x86\Debug\CMS.Services.pdb
+E:\Code\CMS.Services\bin\Debug\CMS.Services.exe.config
+E:\Code\CMS.Services\bin\Debug\CMS.BLL.dll
+E:\Code\CMS.Services\bin\Debug\CMS.Common.dll
+E:\Code\CMS.Services\bin\Debug\CMS.Model.dll
+E:\Code\CMS.Services\bin\Debug\CMS.DAL.dll
+E:\Code\CMS.Services\bin\Debug\ServiceStack.Redis.dll
+E:\Code\CMS.Services\bin\Debug\ThoughtWorks.QRCode.dll
+E:\Code\CMS.Services\bin\Debug\ServiceStack.Interfaces.dll
+E:\Code\CMS.Services\bin\Debug\CMS.DBUtility.dll
+E:\Code\CMS.Services\bin\Debug\ServiceStack.Text.dll
+E:\Code\CMS.Services\bin\Debug\ServiceStack.Common.dll
+E:\Code\CMS.Services\bin\Debug\CMS.BLL.pdb
+E:\Code\CMS.Services\bin\Debug\CMS.Common.pdb
+E:\Code\CMS.Services\bin\Debug\CMS.Model.pdb
+E:\Code\CMS.Services\bin\Debug\CMS.DAL.pdb
+E:\Code\CMS.Services\bin\Debug\ServiceStack.Redis.pdb
+E:\Code\CMS.Services\bin\Debug\ServiceStack.Redis.xml
+E:\Code\CMS.Services\bin\Debug\CMS.DBUtility.pdb
+E:\Code\CMS.Services\bin\Debug\ServiceStack.Text.xml
+E:\Code\CMS.Services\bin\Debug\ServiceStack.Common.xml
+E:\Code\CMS.Services\obj\x86\Debug\CMS.Services.csprojResolveAssemblyReference.cache
+D:\Working\Code\CMS.Services\bin\Debug\CMS.Services.exe.config
+D:\Working\Code\CMS.Services\bin\Debug\CMS.Services.exe
+D:\Working\Code\CMS.Services\bin\Debug\CMS.Services.pdb
+D:\Working\Code\CMS.Services\bin\Debug\CMS.BLL.dll
+D:\Working\Code\CMS.Services\bin\Debug\CMS.Common.dll
+D:\Working\Code\CMS.Services\bin\Debug\CMS.Model.dll
+D:\Working\Code\CMS.Services\bin\Debug\CMS.DAL.dll
+D:\Working\Code\CMS.Services\bin\Debug\ServiceStack.Redis.dll
+D:\Working\Code\CMS.Services\bin\Debug\ThoughtWorks.QRCode.dll
+D:\Working\Code\CMS.Services\bin\Debug\ServiceStack.Interfaces.dll
+D:\Working\Code\CMS.Services\bin\Debug\CMS.DBUtility.dll
+D:\Working\Code\CMS.Services\bin\Debug\ServiceStack.Text.dll
+D:\Working\Code\CMS.Services\bin\Debug\ServiceStack.Common.dll
+D:\Working\Code\CMS.Services\bin\Debug\CMS.BLL.pdb
+D:\Working\Code\CMS.Services\bin\Debug\CMS.Common.pdb
+D:\Working\Code\CMS.Services\bin\Debug\CMS.Model.pdb
+D:\Working\Code\CMS.Services\bin\Debug\CMS.DAL.pdb
+D:\Working\Code\CMS.Services\bin\Debug\ServiceStack.Redis.pdb
+D:\Working\Code\CMS.Services\bin\Debug\ServiceStack.Redis.xml
+D:\Working\Code\CMS.Services\bin\Debug\CMS.DBUtility.pdb
+D:\Working\Code\CMS.Services\bin\Debug\ServiceStack.Text.xml
+D:\Working\Code\CMS.Services\bin\Debug\ServiceStack.Common.xml
+D:\Working\Code\CMS.Services\obj\x86\Debug\CMS.Services.csprojResolveAssemblyReference.cache
+D:\Working\Code\CMS.Services\obj\x86\Debug\CMS.Services.exe
+D:\Working\Code\CMS.Services\obj\x86\Debug\CMS.Services.pdb
+E:\webs\Company\CMS.Services\bin\Debug\CMS.Services.exe.config
+E:\webs\Company\CMS.Services\bin\Debug\CMS.Services.exe
+E:\webs\Company\CMS.Services\bin\Debug\CMS.Services.pdb
+E:\webs\Company\CMS.Services\bin\Debug\CMS.BLL.dll
+E:\webs\Company\CMS.Services\bin\Debug\CMS.Common.dll
+E:\webs\Company\CMS.Services\bin\Debug\CMS.Model.dll
+E:\webs\Company\CMS.Services\bin\Debug\CMS.DAL.dll
+E:\webs\Company\CMS.Services\bin\Debug\ServiceStack.Redis.dll
+E:\webs\Company\CMS.Services\bin\Debug\ServiceStack.Interfaces.dll
+E:\webs\Company\CMS.Services\bin\Debug\ThoughtWorks.QRCode.dll
+E:\webs\Company\CMS.Services\bin\Debug\CMS.DBUtility.dll
+E:\webs\Company\CMS.Services\bin\Debug\ServiceStack.Text.dll
+E:\webs\Company\CMS.Services\bin\Debug\ServiceStack.Common.dll
+E:\webs\Company\CMS.Services\bin\Debug\CMS.BLL.pdb
+E:\webs\Company\CMS.Services\bin\Debug\CMS.Common.pdb
+E:\webs\Company\CMS.Services\bin\Debug\CMS.Model.pdb
+E:\webs\Company\CMS.Services\bin\Debug\CMS.DAL.pdb
+E:\webs\Company\CMS.Services\bin\Debug\ServiceStack.Redis.pdb
+E:\webs\Company\CMS.Services\bin\Debug\ServiceStack.Redis.xml
+E:\webs\Company\CMS.Services\bin\Debug\CMS.DBUtility.pdb
+E:\webs\Company\CMS.Services\bin\Debug\ServiceStack.Text.xml
+E:\webs\Company\CMS.Services\bin\Debug\ServiceStack.Common.xml
+E:\webs\Company\CMS.Services\obj\x86\Debug\CMS.Services.csprojResolveAssemblyReference.cache
+E:\webs\Company\CMS.Services\obj\x86\Debug\CMS.Services.exe
+E:\webs\Company\CMS.Services\obj\x86\Debug\CMS.Services.pdb
+E:\Company\CMS.Services\bin\Debug\CMS.Services.exe.config
+E:\Company\CMS.Services\bin\Debug\CMS.Services.exe
+E:\Company\CMS.Services\bin\Debug\CMS.Services.pdb
+E:\Company\CMS.Services\bin\Debug\CMS.BLL.dll
+E:\Company\CMS.Services\bin\Debug\CMS.Common.dll
+E:\Company\CMS.Services\bin\Debug\CMS.Model.dll
+E:\Company\CMS.Services\bin\Debug\CMS.DAL.dll
+E:\Company\CMS.Services\bin\Debug\ServiceStack.Redis.dll
+E:\Company\CMS.Services\bin\Debug\ServiceStack.Interfaces.dll
+E:\Company\CMS.Services\bin\Debug\ThoughtWorks.QRCode.dll
+E:\Company\CMS.Services\bin\Debug\CMS.DBUtility.dll
+E:\Company\CMS.Services\bin\Debug\ServiceStack.Text.dll
+E:\Company\CMS.Services\bin\Debug\ServiceStack.Common.dll
+E:\Company\CMS.Services\bin\Debug\CMS.BLL.pdb
+E:\Company\CMS.Services\bin\Debug\CMS.Common.pdb
+E:\Company\CMS.Services\bin\Debug\CMS.Model.pdb
+E:\Company\CMS.Services\bin\Debug\CMS.DAL.pdb
+E:\Company\CMS.Services\bin\Debug\ServiceStack.Redis.pdb
+E:\Company\CMS.Services\bin\Debug\ServiceStack.Redis.xml
+E:\Company\CMS.Services\bin\Debug\CMS.DBUtility.pdb
+E:\Company\CMS.Services\bin\Debug\ServiceStack.Text.xml
+E:\Company\CMS.Services\bin\Debug\ServiceStack.Common.xml
+E:\Company\CMS.Services\obj\x86\Debug\CMS.Services.csprojResolveAssemblyReference.cache
+E:\Company\CMS.Services\obj\x86\Debug\CMS.Services.exe
+E:\Company\CMS.Services\obj\x86\Debug\CMS.Services.pdb
+E:\Develop Space\.Net\Company\CMS.Services\bin\Debug\CMS.Services.exe.config
+E:\Develop Space\.Net\Company\CMS.Services\bin\Debug\CMS.Services.exe
+E:\Develop Space\.Net\Company\CMS.Services\bin\Debug\CMS.Services.pdb
+E:\Develop Space\.Net\Company\CMS.Services\bin\Debug\CMS.BLL.dll
+E:\Develop Space\.Net\Company\CMS.Services\bin\Debug\CMS.Common.dll
+E:\Develop Space\.Net\Company\CMS.Services\bin\Debug\CMS.Model.dll
+E:\Develop Space\.Net\Company\CMS.Services\bin\Debug\CMS.DAL.dll
+E:\Develop Space\.Net\Company\CMS.Services\bin\Debug\ServiceStack.Redis.dll
+E:\Develop Space\.Net\Company\CMS.Services\bin\Debug\ServiceStack.Interfaces.dll
+E:\Develop Space\.Net\Company\CMS.Services\bin\Debug\ThoughtWorks.QRCode.dll
+E:\Develop Space\.Net\Company\CMS.Services\bin\Debug\CMS.DBUtility.dll
+E:\Develop Space\.Net\Company\CMS.Services\bin\Debug\ServiceStack.Text.dll
+E:\Develop Space\.Net\Company\CMS.Services\bin\Debug\ServiceStack.Common.dll
+E:\Develop Space\.Net\Company\CMS.Services\bin\Debug\CMS.BLL.pdb
+E:\Develop Space\.Net\Company\CMS.Services\bin\Debug\CMS.Common.pdb
+E:\Develop Space\.Net\Company\CMS.Services\bin\Debug\CMS.Model.pdb
+E:\Develop Space\.Net\Company\CMS.Services\bin\Debug\CMS.DAL.pdb
+E:\Develop Space\.Net\Company\CMS.Services\bin\Debug\ServiceStack.Redis.pdb
+E:\Develop Space\.Net\Company\CMS.Services\bin\Debug\ServiceStack.Redis.xml
+E:\Develop Space\.Net\Company\CMS.Services\bin\Debug\CMS.DBUtility.pdb
+E:\Develop Space\.Net\Company\CMS.Services\bin\Debug\ServiceStack.Text.xml
+E:\Develop Space\.Net\Company\CMS.Services\bin\Debug\ServiceStack.Common.xml
+E:\Develop Space\.Net\Company\CMS.Services\obj\x86\Debug\CMS.Services.csprojResolveAssemblyReference.cache
+E:\Develop Space\.Net\Company\CMS.Services\obj\x86\Debug\CMS.Services.exe
+E:\Develop Space\.Net\Company\CMS.Services\obj\x86\Debug\CMS.Services.pdb

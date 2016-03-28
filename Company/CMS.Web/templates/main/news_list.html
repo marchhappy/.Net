@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="utf-8" />
+    <title>{site.seo_title}</title>
+    <meta name="keywords" content="{site.seo_keyword}" />
+    <meta name="description" content="{site.seo_description}" />    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="<%templateskin%>/plugin/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="<%templateskin%>/plugin/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="<%templateskin%>/plugin/pretty-photo/css/prettyPhoto.css" />
+    <link rel="stylesheet" href="<%templateskin%>/css/styleui.css" />	
+    <link rel="stylesheet" href="<%templateskin%>/plugin/animate.min.css" />
+	<link rel="stylesheet" href="{config.webpath}css/pagination.css" />
+    <!-- / CSS Files -->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="<%templateskin%>/js/html5shiv.js"></script>
+    <script src="<%templateskin%>/js/respond.min.js"></script>
+    <![endif]-->
+    <script src="<%templateskin%>/plugin/jquery-1.10.2.min.js"></script>
+    <script src="<%templateskin%>/plugin/bootstrap/js/bootstrap.min.js"></script>
+    <script src="<%templateskin%>/script/animate.js"></script>
+    <script src="<%templateskin%>/plugin/jquery.cuteTime.min.js"></script>
+    <script src="<%templateskin%>/script/script.js"></script>
+
+<body>
+<!--Header-->
+<%template src="_headerui.html"%>
+<!--/Header-->
+<script>SysNavnalSet(4);</script>
+
+	<div class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <h1>新闻公告</h1>
+                </div>
+                <div class="col-md-5">
+                    <ol class="breadcrumb pull-right">
+                        <li><a href="index.htm">首页</a></li>
+                        <li class="active">新闻公告</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Video list boxes: list -->
+    <section class="content content-light  videos-list videos-list-list">
+        <div class="container">
+            
+            <hr class="invisible" />
+            
+			<%set DataTable newsList=get_article_listFix(channel, category_id, pagesize, page, "status=0", out totalcount, out pagelist, "news_list", category_id, "__id__")%><!--取得一个分页DataTable-->
+			<%foreach(DataRow dr in newsList.Rows)%>
+            <article class="row video-item">
+                <div class="col-md-4">
+                    <a href="<%linkurl("news_show",{dr[id]})%>" class="video-pre video-pre-small"><img src="{dr[img_url]}" width="303" height="200" /></a>
+                    <p class="button-full"><a href="<%linkurl("news_show",{dr[id]})%>" class="btn btn-theme btn-green"><i class="fa fa-play"></i> 查看详情</a></p>
+                </div>
+                <div class="col-md-8">
+                    <h3 class="video-title"><a href="<%linkurl("news_show",{dr[id]})%>">{dr[title]}</a></h3>
+                    <p class="video-description">{dr[zhaiyao]}</p>
+                   <div class="row video-params">
+                        <div class="col-md-2">作者: <b>{dr[user_name]}</b></div>
+                        <div class="col-md-4">发布时间: <b><%datetostr({dr[add_time]},yyyy年MM月dd日)%></b></div>                        
+                        <div class="col-md-3">浏览次数: <b><script type="text/javascript" src="{config.webpath}tools/submit_ajax.ashx?action=view_article_click&id={dr[id]}"></script></b></div>
+                    </div>                     
+                </div>
+            </article>
+			<%/foreach%>
+            			
+            <!-- Pagination -->
+            <ul class="pagination">
+				{pagelist}                
+            </ul>
+        </div>        
+    </section>
+	
+	
+
+  
+
+<!--Footer-->
+<%template src="_footerui.html"%>
+<!--/Footer-->
+</body>
+</html>

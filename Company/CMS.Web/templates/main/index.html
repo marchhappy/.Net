@@ -1,0 +1,167 @@
+﻿<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="utf-8" />
+    <title>{site.seo_title}</title>
+    <meta name="keywords" content="{site.seo_keyword}" />
+    <meta name="description" content="{site.seo_description}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="<%templateskin%>/plugin/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="<%templateskin%>/plugin/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="<%templateskin%>/plugin/pretty-photo/css/prettyPhoto.css" />
+    <link rel="stylesheet" href="<%templateskin%>/css/styleui.css" />
+    <link rel="stylesheet" href="<%templateskin%>/plugin/animate.min.css" />
+    <!-- / CSS Files -->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="<%templateskin%>/js/html5shiv.js"></script>
+    <script src="<%templateskin%>/js/respond.min.js"></script>
+    <![endif]-->
+    <script src="<%templateskin%>/plugin/jquery-1.10.2.min.js"></script>
+    <script src="<%templateskin%>/plugin/bootstrap/js/bootstrap.min.js"></script>
+    <script src="<%templateskin%>/script/animate.js"></script>
+    <script src="<%templateskin%>/plugin/jquery.cuteTime.min.js"></script>
+    <script src="<%templateskin%>/script/script.js"></script>
+</head>
+<body>
+
+    <%template src="_headerui.html"%>
+    <script>SysNavnalSet(1);</script>
+
+    <div id="main-slide" class="carousel slide" data-ride="carousel">
+        <%set DataTable adBar1=GetAdvertBaner(1)%>
+        <ol class="carousel-indicators">
+            <%loop ad0 adBar1%>
+            <li data-target="#main-slide" data-slide-to="{ad0__loop__id-1}" class="<%=TrueFalseEval(ad0__loop__id==1," active","")%>"></li>
+            <%/loop%>
+        </ol>
+        <div class="carousel-inner">
+            <%loop ad1 adBar1%>
+
+            <div class="item <%=TrueFalseEval(ad1__loop__id==1," active","")%>
+                ">
+                <img class="img-responsive" src="{ad1[file_path]}" alt="slider">
+                <div class="slider-content">
+                    <div class="col-md-12 text-center">
+                        <h2></h2>
+                        <div></div>
+                        <%if(!string.IsNullOrEmpty({ad1[link_url]})) %>
+                        <p><a href="{ad1[link_url]}" class="slider btn">阅读更多</a> </p>
+                        <%/if%>
+                    </div>
+                </div>
+            </div>
+
+            <%/loop%>
+        </div>
+        <a class="left carousel-control" href="#main-slide" data-slide="prev"> <span><i class="fa fa-angle-left"></i></span> </a>
+        <a class="right carousel-control" href="#main-slide" data-slide="next"> <span><i class="fa fa-angle-right"></i></span> </a>
+    </div>
+
+    <section class="poweredby">
+        <figure class="container">
+            <div class="row text-center client-logos">
+                <div class="col-md-3">
+                    <a href="#">
+                        <img src="<%templateskin%>/img/01.gif" alt="" />
+                        <img src="<%templateskin%>/img/01.gif" class="color" alt="" />
+                    </a>
+                    <h4>网页版平台系统</h4>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                        <img src="<%templateskin%>/img/04.gif" alt="" />
+                        <img src="<%templateskin%>/img/04.gif" class="color" alt="" />
+                    </a>
+                    <h4>一卡通兑换系统</h4>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                        <img src="<%templateskin%>/img/05.gif" alt="" />
+                        <img src="<%templateskin%>/img/05.gif" class="color" alt="" />
+                    </a>
+                    <h4>手机版卡盟</h4>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                        <img src="<%templateskin%>/img/06.gif" alt="" />
+                        <img src="<%templateskin%>/img/06.gif" class="color" alt="" />
+                    </a>
+                    <h4>全新产品，敬请期待！</h4>
+                </div>
+            </div>
+        </figure>
+    </section>
+
+    <div class="container content content-light home-1">
+        <section class="row animation-scroll">
+            <figure class="col-md-6 animated" data-animation="bounceInLeft"><img src="<%templateskin%>/img/home1_img1.png" alt="" /></figure>
+            <article class="col-md-6 animated" data-animation="bounceInRight">
+                <h3><a href="#"><strong>我要进货</strong></a><small class="text-green margin-left-8">货源多</small></h3>
+                <p>卡密、充值商品全市最低价，货源丰富，淘宝、拍拍对接管理，API开放接口灵活配置。</p>
+                <a href="categories.htm" class="link-more">了解进货详情<i class="fa fa-arrow-right "></i></a>
+            </article>
+        </section>
+        <section class="row animation-scroll">
+            <article class="col-md-6 animated" data-animation="bounceInLeft">
+                <h3><a href="#"><strong>我要供货</strong></a><small class="text-green margin-left-8">销路广</small></h3>
+                <p>卡乐购上千家平台，每月数亿的交易量，坐享为数百万用户供货的便捷，迅速拓展您的商品销路。</p>
+                <a href="#" class="link-more">了解供货详情<i class="fa fa-arrow-right "></i></a>
+            </article>
+            <figure class="col-md-6 animated" data-animation="bounceInRight"><img src="<%templateskin%>/img/home1_img2.png" alt="" /></figure>
+        </section>
+        <section class="row animation-scroll">
+            <figure class="col-md-6 animated" data-animation="bounceInLeft"><img src="<%templateskin%>/img/home1_img3.png" alt="" /></figure>
+            <article class="col-md-6 animated" data-animation="bounceInRight">
+                <h3><strong>个性化服务</strong></h3>
+                <p>拒绝千篇一律，展现自我品牌形象。我们为有个性化需求的用户定制独一无二的界面及功能。个性化定制包括：网站前台风格，平台内页风格和软件风格，功能定制包括充值模版等一些自动化的功能。</p>
+                <a href="#" class="link-more">了解详情<i class="fa fa-arrow-right "></i></a>
+            </article>
+        </section>
+    </div>
+
+    <section class="content content-dark bg-dark-img">
+        <div class="container">
+            <p class="header text-center text-white">想要加入我们吗？</p>
+            <p class="header header-tiny text-center text-white">我们为有个性化需求的用户定制独一无二的界面及功能。</p>
+            <p class="buttons text-center"><a href="signproduct.html" class="btn btn-theme btn-orange">产品服务</a> <a href="homeplan.html" class="btn btn-theme btn-green">套餐购买</a></p>
+        </div>
+    </section>
+
+
+    <section class="content content-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>
+                        <strong>新闻公告</strong>
+                        <a href="#" class="color-text-1" style="float: right; margin-right: 2%; font-size: 80%;"><i class="fa fa-arrow-right"></i></a>
+                    </h3>
+                    <ul class="fa-ul list-special">
+                        <%set DataTable nlist=get_article_list("news", 5, "status=0 and Category_id=54")%>
+                        <%foreach(DataRow dr in nlist.Rows)%>
+                        <li><i class="fa-li fa fa-2x fa-dribbble text-green"></i><a href='<%linkurl("news_show",{dr[id]})%>' class="color-text">{dr[title]}</a></li>
+                        <%/foreach%>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h3>
+                        <strong>热门帮助</strong>
+                        <a href="#" class="color-text-1" style="float: right; margin-right: 2%; font-size: 80%;"><i class="fa fa-arrow-right"></i></a>
+                    </h3>
+                    <ul class="fa-ul list-special">
+                        <%set DataTable hlist=get_article_list("news", 5, "status=0 and Category_id=57")%>
+                        <%foreach(DataRow dr in hlist.Rows)%>
+                        <li><i class="fa-li fa fa-2x fa-check text-green"></i><a href='<%linkurl("helpamount",{dr[id]})%>' class="color-text">{dr[title]}</a></li>
+                        <%/foreach%>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <%template src="_footerui.html"%>
+
+</body>
+</html>

@@ -1,0 +1,213 @@
+D:\Working\CMS.Web\obj\Debug\CMS.Web.csprojResolveAssemblyReference.cache
+D:\Working\CMS.Web\bin\CMS.Web.dll
+D:\Working\CMS.Web\bin\CMS.Web.pdb
+D:\Working\CMS.Web\bin\CMS.API.dll
+D:\Working\CMS.Web\bin\CMS.BLL.dll
+D:\Working\CMS.Web\bin\CMS.Common.dll
+D:\Working\CMS.Web\bin\CMS.Model.dll
+D:\Working\CMS.Web\bin\CMS.Web.UI.dll
+D:\Working\CMS.Web\bin\CMS.DAL.dll
+D:\Working\CMS.Web\bin\CMS.DBUtility.dll
+D:\Working\CMS.Web\bin\CMS.API.pdb
+D:\Working\CMS.Web\bin\CMS.BLL.pdb
+D:\Working\CMS.Web\bin\CMS.Common.pdb
+D:\Working\CMS.Web\bin\CMS.Model.pdb
+D:\Working\CMS.Web\bin\CMS.Web.UI.pdb
+D:\Working\CMS.Web\bin\CMS.DAL.pdb
+D:\Working\CMS.Web\bin\CMS.DBUtility.pdb
+D:\Working\CMS.Web\obj\Debug\CMS.Web.dll
+D:\Working\CMS.Web\obj\Debug\CMS.Web.pdb
+D:\Working\CMS.Web\bin\ServiceStack.Redis.dll
+D:\Working\CMS.Web\bin\ServiceStack.Interfaces.dll
+D:\Working\CMS.Web\bin\ServiceStack.Text.dll
+D:\Working\CMS.Web\bin\ServiceStack.Common.dll
+D:\Working\CMS.Web\bin\ServiceStack.Redis.pdb
+D:\Working\CMS.Web\bin\ServiceStack.Redis.xml
+D:\Working\CMS.Web\bin\ServiceStack.Text.xml
+D:\Working\CMS.Web\bin\ServiceStack.Common.xml
+D:\Working\CMS.Web\bin\ThoughtWorks.QRCode.dll
+D:\Working\CMS.Web\bin\Senparc.Weixin.dll
+D:\Working\CMS.Web\bin\Senparc.Weixin.MP.dll
+E:\Code\CMS.Web\bin\CMS.Web.dll
+E:\Code\CMS.Web\bin\CMS.Web.pdb
+E:\Code\CMS.Web\bin\CMS.API.dll
+E:\Code\CMS.Web\bin\CMS.BLL.dll
+E:\Code\CMS.Web\bin\CMS.Common.dll
+E:\Code\CMS.Web\bin\CMS.Model.dll
+E:\Code\CMS.Web\bin\CMS.Web.UI.dll
+E:\Code\CMS.Web\bin\Senparc.Weixin.dll
+E:\Code\CMS.Web\bin\Senparc.Weixin.MP.dll
+E:\Code\CMS.Web\bin\ThoughtWorks.QRCode.dll
+E:\Code\CMS.Web\bin\CMS.DAL.dll
+E:\Code\CMS.Web\bin\ServiceStack.Redis.dll
+E:\Code\CMS.Web\bin\ServiceStack.Interfaces.dll
+E:\Code\CMS.Web\bin\CMS.DBUtility.dll
+E:\Code\CMS.Web\bin\ServiceStack.Text.dll
+E:\Code\CMS.Web\bin\ServiceStack.Common.dll
+E:\Code\CMS.Web\bin\CMS.API.pdb
+E:\Code\CMS.Web\bin\CMS.BLL.pdb
+E:\Code\CMS.Web\bin\CMS.Common.pdb
+E:\Code\CMS.Web\bin\CMS.Model.pdb
+E:\Code\CMS.Web\bin\CMS.Web.UI.pdb
+E:\Code\CMS.Web\bin\CMS.DAL.pdb
+E:\Code\CMS.Web\bin\ServiceStack.Redis.pdb
+E:\Code\CMS.Web\bin\ServiceStack.Redis.xml
+E:\Code\CMS.Web\bin\CMS.DBUtility.pdb
+E:\Code\CMS.Web\bin\ServiceStack.Text.xml
+E:\Code\CMS.Web\bin\ServiceStack.Common.xml
+E:\Code\CMS.Web\obj\Debug\CMS.Web.csprojResolveAssemblyReference.cache
+E:\Code\CMS.Web\obj\Debug\CMS.Web.dll
+E:\Code\CMS.Web\obj\Debug\CMS.Web.pdb
+D:\Working\Code\CMS.Web\bin\CMS.Web.dll
+D:\Working\Code\CMS.Web\bin\CMS.Web.pdb
+D:\Working\Code\CMS.Web\bin\CMS.API.dll
+D:\Working\Code\CMS.Web\bin\CMS.BLL.dll
+D:\Working\Code\CMS.Web\bin\CMS.Common.dll
+D:\Working\Code\CMS.Web\bin\CMS.Model.dll
+D:\Working\Code\CMS.Web\bin\CMS.Web.UI.dll
+D:\Working\Code\CMS.Web\bin\Senparc.Weixin.dll
+D:\Working\Code\CMS.Web\bin\Senparc.Weixin.MP.dll
+D:\Working\Code\CMS.Web\bin\ThoughtWorks.QRCode.dll
+D:\Working\Code\CMS.Web\bin\CMS.DAL.dll
+D:\Working\Code\CMS.Web\bin\ServiceStack.Redis.dll
+D:\Working\Code\CMS.Web\bin\ServiceStack.Interfaces.dll
+D:\Working\Code\CMS.Web\bin\CMS.DBUtility.dll
+D:\Working\Code\CMS.Web\bin\ServiceStack.Text.dll
+D:\Working\Code\CMS.Web\bin\ServiceStack.Common.dll
+D:\Working\Code\CMS.Web\bin\CMS.API.pdb
+D:\Working\Code\CMS.Web\bin\CMS.BLL.pdb
+D:\Working\Code\CMS.Web\bin\CMS.Common.pdb
+D:\Working\Code\CMS.Web\bin\CMS.Model.pdb
+D:\Working\Code\CMS.Web\bin\CMS.Web.UI.pdb
+D:\Working\Code\CMS.Web\bin\CMS.DAL.pdb
+D:\Working\Code\CMS.Web\bin\ServiceStack.Redis.pdb
+D:\Working\Code\CMS.Web\bin\ServiceStack.Redis.xml
+D:\Working\Code\CMS.Web\bin\CMS.DBUtility.pdb
+D:\Working\Code\CMS.Web\bin\ServiceStack.Text.xml
+D:\Working\Code\CMS.Web\bin\ServiceStack.Common.xml
+D:\Working\Code\CMS.Web\obj\Debug\CMS.Web.csprojResolveAssemblyReference.cache
+D:\Working\Code\CMS.Web\obj\Debug\CMS.Web.dll
+D:\Working\Code\CMS.Web\obj\Debug\CMS.Web.pdb
+D:\Working\Company\CMS.Web\bin\CMS.Web.dll
+D:\Working\Company\CMS.Web\bin\CMS.Web.pdb
+D:\Working\Company\CMS.Web\bin\CMS.API.dll
+D:\Working\Company\CMS.Web\bin\CMS.BLL.dll
+D:\Working\Company\CMS.Web\bin\CMS.Common.dll
+D:\Working\Company\CMS.Web\bin\CMS.Model.dll
+D:\Working\Company\CMS.Web\bin\CMS.Web.UI.dll
+D:\Working\Company\CMS.Web\bin\Senparc.Weixin.dll
+D:\Working\Company\CMS.Web\bin\Senparc.Weixin.MP.dll
+D:\Working\Company\CMS.Web\bin\ThoughtWorks.QRCode.dll
+D:\Working\Company\CMS.Web\bin\CMS.DAL.dll
+D:\Working\Company\CMS.Web\bin\ServiceStack.Redis.dll
+D:\Working\Company\CMS.Web\bin\ServiceStack.Interfaces.dll
+D:\Working\Company\CMS.Web\bin\CMS.DBUtility.dll
+D:\Working\Company\CMS.Web\bin\ServiceStack.Text.dll
+D:\Working\Company\CMS.Web\bin\ServiceStack.Common.dll
+D:\Working\Company\CMS.Web\bin\CMS.API.pdb
+D:\Working\Company\CMS.Web\bin\CMS.BLL.pdb
+D:\Working\Company\CMS.Web\bin\CMS.Common.pdb
+D:\Working\Company\CMS.Web\bin\CMS.Model.pdb
+D:\Working\Company\CMS.Web\bin\CMS.Web.UI.pdb
+D:\Working\Company\CMS.Web\bin\CMS.DAL.pdb
+D:\Working\Company\CMS.Web\bin\ServiceStack.Redis.pdb
+D:\Working\Company\CMS.Web\bin\ServiceStack.Redis.xml
+D:\Working\Company\CMS.Web\bin\CMS.DBUtility.pdb
+D:\Working\Company\CMS.Web\bin\ServiceStack.Text.xml
+D:\Working\Company\CMS.Web\bin\ServiceStack.Common.xml
+D:\Working\Company\CMS.Web\obj\Debug\CMS.Web.csprojResolveAssemblyReference.cache
+D:\Working\Company\CMS.Web\obj\Debug\CMS.Web.dll
+D:\Working\Company\CMS.Web\obj\Debug\CMS.Web.pdb
+E:\webs\Company\CMS.Web\bin\CMS.Web.dll.config
+E:\webs\Company\CMS.Web\bin\CMS.Web.dll
+E:\webs\Company\CMS.Web\bin\CMS.Web.pdb
+E:\webs\Company\CMS.Web\bin\CMS.API.dll
+E:\webs\Company\CMS.Web\bin\CMS.BLL.dll
+E:\webs\Company\CMS.Web\bin\CMS.Common.dll
+E:\webs\Company\CMS.Web\bin\CMS.Model.dll
+E:\webs\Company\CMS.Web\bin\CMS.Web.UI.dll
+E:\webs\Company\CMS.Web\bin\Senparc.Weixin.dll
+E:\webs\Company\CMS.Web\bin\Senparc.Weixin.MP.dll
+E:\webs\Company\CMS.Web\bin\ThoughtWorks.QRCode.dll
+E:\webs\Company\CMS.Web\bin\CMS.DAL.dll
+E:\webs\Company\CMS.Web\bin\ServiceStack.Redis.dll
+E:\webs\Company\CMS.Web\bin\ServiceStack.Interfaces.dll
+E:\webs\Company\CMS.Web\bin\CMS.DBUtility.dll
+E:\webs\Company\CMS.Web\bin\ServiceStack.Text.dll
+E:\webs\Company\CMS.Web\bin\ServiceStack.Common.dll
+E:\webs\Company\CMS.Web\bin\CMS.API.pdb
+E:\webs\Company\CMS.Web\bin\CMS.BLL.pdb
+E:\webs\Company\CMS.Web\bin\CMS.Common.pdb
+E:\webs\Company\CMS.Web\bin\CMS.Model.pdb
+E:\webs\Company\CMS.Web\bin\CMS.Web.UI.pdb
+E:\webs\Company\CMS.Web\bin\CMS.DAL.pdb
+E:\webs\Company\CMS.Web\bin\ServiceStack.Redis.pdb
+E:\webs\Company\CMS.Web\bin\ServiceStack.Redis.xml
+E:\webs\Company\CMS.Web\bin\CMS.DBUtility.pdb
+E:\webs\Company\CMS.Web\bin\ServiceStack.Text.xml
+E:\webs\Company\CMS.Web\bin\ServiceStack.Common.xml
+E:\webs\Company\CMS.Web\obj\Debug\CMS.Web.csprojResolveAssemblyReference.cache
+E:\webs\Company\CMS.Web\obj\Debug\CMS.Web.dll
+E:\webs\Company\CMS.Web\obj\Debug\CMS.Web.pdb
+E:\Company\CMS.Web\bin\CMS.Web.dll.config
+E:\Company\CMS.Web\bin\CMS.Web.dll
+E:\Company\CMS.Web\bin\CMS.Web.pdb
+E:\Company\CMS.Web\bin\CMS.API.dll
+E:\Company\CMS.Web\bin\CMS.BLL.dll
+E:\Company\CMS.Web\bin\CMS.Common.dll
+E:\Company\CMS.Web\bin\CMS.Model.dll
+E:\Company\CMS.Web\bin\CMS.Web.UI.dll
+E:\Company\CMS.Web\bin\Senparc.Weixin.dll
+E:\Company\CMS.Web\bin\Senparc.Weixin.MP.dll
+E:\Company\CMS.Web\bin\ThoughtWorks.QRCode.dll
+E:\Company\CMS.Web\bin\CMS.DAL.dll
+E:\Company\CMS.Web\bin\ServiceStack.Redis.dll
+E:\Company\CMS.Web\bin\ServiceStack.Interfaces.dll
+E:\Company\CMS.Web\bin\CMS.DBUtility.dll
+E:\Company\CMS.Web\bin\ServiceStack.Text.dll
+E:\Company\CMS.Web\bin\ServiceStack.Common.dll
+E:\Company\CMS.Web\bin\CMS.API.pdb
+E:\Company\CMS.Web\bin\CMS.BLL.pdb
+E:\Company\CMS.Web\bin\CMS.Common.pdb
+E:\Company\CMS.Web\bin\CMS.Model.pdb
+E:\Company\CMS.Web\bin\CMS.Web.UI.pdb
+E:\Company\CMS.Web\bin\CMS.DAL.pdb
+E:\Company\CMS.Web\bin\ServiceStack.Redis.pdb
+E:\Company\CMS.Web\bin\ServiceStack.Redis.xml
+E:\Company\CMS.Web\bin\CMS.DBUtility.pdb
+E:\Company\CMS.Web\bin\ServiceStack.Text.xml
+E:\Company\CMS.Web\bin\ServiceStack.Common.xml
+E:\Company\CMS.Web\obj\Debug\CMS.Web.csprojResolveAssemblyReference.cache
+E:\Company\CMS.Web\obj\Debug\CMS.Web.dll
+E:\Company\CMS.Web\obj\Debug\CMS.Web.pdb
+E:\Develop Space\.Net\Company\CMS.Web\bin\CMS.Web.dll.config
+E:\Develop Space\.Net\Company\CMS.Web\bin\CMS.Web.dll
+E:\Develop Space\.Net\Company\CMS.Web\bin\CMS.Web.pdb
+E:\Develop Space\.Net\Company\CMS.Web\bin\CMS.API.dll
+E:\Develop Space\.Net\Company\CMS.Web\bin\CMS.BLL.dll
+E:\Develop Space\.Net\Company\CMS.Web\bin\CMS.Common.dll
+E:\Develop Space\.Net\Company\CMS.Web\bin\CMS.Model.dll
+E:\Develop Space\.Net\Company\CMS.Web\bin\CMS.Web.UI.dll
+E:\Develop Space\.Net\Company\CMS.Web\bin\Senparc.Weixin.dll
+E:\Develop Space\.Net\Company\CMS.Web\bin\Senparc.Weixin.MP.dll
+E:\Develop Space\.Net\Company\CMS.Web\bin\ThoughtWorks.QRCode.dll
+E:\Develop Space\.Net\Company\CMS.Web\bin\CMS.DAL.dll
+E:\Develop Space\.Net\Company\CMS.Web\bin\ServiceStack.Redis.dll
+E:\Develop Space\.Net\Company\CMS.Web\bin\ServiceStack.Interfaces.dll
+E:\Develop Space\.Net\Company\CMS.Web\bin\CMS.DBUtility.dll
+E:\Develop Space\.Net\Company\CMS.Web\bin\ServiceStack.Text.dll
+E:\Develop Space\.Net\Company\CMS.Web\bin\ServiceStack.Common.dll
+E:\Develop Space\.Net\Company\CMS.Web\bin\CMS.API.pdb
+E:\Develop Space\.Net\Company\CMS.Web\bin\CMS.BLL.pdb
+E:\Develop Space\.Net\Company\CMS.Web\bin\CMS.Common.pdb
+E:\Develop Space\.Net\Company\CMS.Web\bin\CMS.Model.pdb
+E:\Develop Space\.Net\Company\CMS.Web\bin\CMS.Web.UI.pdb
+E:\Develop Space\.Net\Company\CMS.Web\bin\CMS.DAL.pdb
+E:\Develop Space\.Net\Company\CMS.Web\bin\ServiceStack.Redis.pdb
+E:\Develop Space\.Net\Company\CMS.Web\bin\ServiceStack.Redis.xml
+E:\Develop Space\.Net\Company\CMS.Web\bin\CMS.DBUtility.pdb
+E:\Develop Space\.Net\Company\CMS.Web\bin\ServiceStack.Text.xml
+E:\Develop Space\.Net\Company\CMS.Web\bin\ServiceStack.Common.xml
+E:\Develop Space\.Net\Company\CMS.Web\obj\Debug\CMS.Web.csprojResolveAssemblyReference.cache
+E:\Develop Space\.Net\Company\CMS.Web\obj\Debug\CMS.Web.dll
+E:\Develop Space\.Net\Company\CMS.Web\obj\Debug\CMS.Web.pdb

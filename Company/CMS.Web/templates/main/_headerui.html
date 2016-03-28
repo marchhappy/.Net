@@ -1,0 +1,67 @@
+﻿<header class="main bg-dark-img home-1">
+    <div class="container">
+        <nav class="navbar" role="navigation">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="<%linkurl("index")%>"><img id="logo" src="<%templateskin%>/img/logo.png" alt="eLearn" /></a>
+            </div>
+            <div class="collapse navbar-collapse">
+                <div class="navbar-right menu-main">
+                    <ul class="nav navbar-nav">
+                        <li id="snav1" class="dropdown">
+                            <a href="<%linkurl("index")%>"><span>首页</span></a>
+                        </li>
+                        <li id="snav2"><a href="<%linkurl("signproduct")%>"><span>产品服务</span></a></li>
+                        <li id="snav3" class="dropdown">
+                            <a href="<%linkurl("homeplan")%>"><span>套餐购买</span></a>
+                            <!--- <ul class="dropdown-menu">
+                                 <li><a href="blog-list.htm">Blog list</a></li>
+                                 <li><a href="blog-post.htm">Blog post detail</a></li>
+                             </ul> -->
+                        </li>
+                        <li id="snav4" class="dropdown">
+                            <a href="<%linkurl("news_list",54)%>"><span>新闻公告</span></a>
+                            <!--- <ul class="dropdown-menu">
+                                <li><a href="categories.htm">Categories of video</a></li>
+                                <li><a href="videos-list.htm">Video list</a></li>
+                                <li><a href="videos-grid.htm">Video list (grid)</a></li>
+                                <li><a href="video.htm">Video film detail</a></li>
+                            </ul>-->
+                        </li>
+                        <li id="snav5"><a href="<%linkurl("helpamount")%>"><span>帮助信息</span></a></li>
+                        <li id="snav6"><a href="<%linkurl("signabout")%>"><span>关于我们</span></a></li>
+                        <li id="snav7"><a href="<%linkurl("signcontact")%>"><span>联系我们</span></a></li>
+                    </ul>
+                    <a class="btn btn-theme navbar-btn btn-default sign-in" id="userCenterDoorBtn1" href="javascript:;">登陆</a>
+                    <a class="btn btn-theme navbar-btn btn-orange  sign-up" id="userCenterDoorBtn2" href="javascript:;">注册</a>
+
+                    <script type="text/javascript">
+					function SysNavnalSet(key){
+						// 设置当前导航高亮
+						setTimeout(function(){$('#snav'+key).addClass('active');},5);						
+					}
+                    $.ajax({
+                        type: "POST",
+                        url: "{config.webpath}tools/submit_ajax.ashx?action=user_check_login",
+                        dataType: "json",
+                        timeout: 20000,
+                        success: function (data, textStatus) {
+                            if (data.status == 1) {
+								var strOut='<%linkurl("usercenter","exit")%>'; //退出
+								var strCnt='<%linkurl("usercenter","index")%>'; //会员中心
+                                $('#userCenterDoorBtn1').attr('href',strOut).html('退出');
+								$('#userCenterDoorBtn2').attr('href',strCnt).html('会员中心');
+                            } else {
+                                var strReg='<%linkurl("register")%>'; //注册
+								var strSig='<%linkurl("login")%>'; //登陆
+                                $('#userCenterDoorBtn1').attr('href',strReg).html('注册');
+								$('#userCenterDoorBtn2').attr('href',strSig).html('登陆');
+                            }
+                        }
+                    });
+                    </script>
+                </div>
+            </div>
+        </nav>
+
+    </div>
+</header>

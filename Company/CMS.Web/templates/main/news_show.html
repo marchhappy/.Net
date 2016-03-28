@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="utf-8" />
+	<%set string category_title=get_category_title(model.category_id,"新闻资讯")%>
+	<title>{model.title} - {category_title} - {site.name}</title>
+    <meta name="keywords" content="{site.seo_keyword}" />
+    <meta name="description" content="{site.seo_description}" />    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="<%templateskin%>/plugin/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="<%templateskin%>/plugin/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="<%templateskin%>/plugin/pretty-photo/css/prettyPhoto.css" />
+    <link rel="stylesheet" href="<%templateskin%>/css/styleui.css" />
+    <link rel="stylesheet" href="<%templateskin%>/plugin/animate.min.css" />
+    <!-- / CSS Files -->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="<%templateskin%>/js/html5shiv.js"></script>
+    <script src="<%templateskin%>/js/respond.min.js"></script>
+    <![endif]-->
+    <script src="<%templateskin%>/plugin/jquery-1.10.2.min.js"></script>
+    <script src="<%templateskin%>/plugin/bootstrap/js/bootstrap.min.js"></script>
+    <script src="<%templateskin%>/script/animate.js"></script>
+    <script src="<%templateskin%>/plugin/jquery.cuteTime.min.js"></script>
+    <script src="<%templateskin%>/script/script.js"></script>
+
+<body>
+<!--Header-->
+<%template src="_headerui.html"%>
+<!--/Header-->
+<script>SysNavnalSet(4);</script>
+
+	<div class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <h1>{model.title}</h1>
+                </div>
+                <div class="col-md-5">
+                    <ol class="breadcrumb pull-right">
+                        <li><a href="index.htm">首页</a></li>
+                        <li><a href="videos-list.htm">新闻公告</a></li>
+                        <li class="active">新闻详情</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Video: film view -->
+    <section class="content content-light  video-film">
+        <div class="container">
+            <!-- Video film view - center -->
+            <div class="row">
+                <div class="col-md-8">
+                    <article>
+						<%if({model.img_url}!="")%>
+							<img src="{model.img_url}" class="img-radio" width="616" height="260" />
+							<hr class="invisible" />
+						<%/if%>
+                        <div class="video-content">
+                            {model.content}
+                        </div>                        
+                        <hr class="invisible" />
+						
+                    </article>
+                </div>
+                <aside class="col-md-4">
+                    <h3 class="video-title">{model.title}</h3>
+                    <p class="video-params">
+                   	 	作者: <b>{model.user_name}</b> <br />
+                    	时间: <b><%datetostr({model.add_time},yyyy年MM月dd日)%></b> <br />
+                   	 	浏览次数: <b><script type="text/javascript" src="{config.webpath}tools/submit_ajax.ashx?action=view_article_click&id={model.id}&click=1"></script></b> <br />                    	
+                    </p>
+                </aside>
+            </div>
+			<div class="row">
+			  <p class="prev">上一篇：<%=get_prevandnext_article("news_show", -1, "没有了", 0)%></p>
+			  <p class="next">下一篇：<%=get_prevandnext_article("news_show", 1, "没有了", 0)%></p>
+			</div>
+		</div>
+		
+    </section>
+
+
+<!--Footer-->
+<%template src="_footerui.html"%>
+<!--/Footer-->
+</body>
+</html>

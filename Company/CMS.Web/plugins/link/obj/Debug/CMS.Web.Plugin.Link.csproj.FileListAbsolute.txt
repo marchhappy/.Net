@@ -1,0 +1,30 @@
+D:\Working\CMS.Web\bin\CMS.Web.Plugin.Link.dll
+D:\Working\CMS.Web\bin\CMS.Web.Plugin.Link.pdb
+D:\Working\CMS.Web\plugins\link\obj\Debug\CMS.Web.Plugin.Link.dll
+D:\Working\CMS.Web\plugins\link\obj\Debug\CMS.Web.Plugin.Link.pdb
+D:\Working\CMS.Web\plugins\link\obj\Debug\CMS.Web.Plugin.Link.csprojResolveAssemblyReference.cache
+E:\Code\CMS.Web\bin\CMS.Web.Plugin.Link.dll
+E:\Code\CMS.Web\bin\CMS.Web.Plugin.Link.pdb
+E:\Code\CMS.Web\plugins\link\obj\Debug\CMS.Web.Plugin.Link.dll
+E:\Code\CMS.Web\plugins\link\obj\Debug\CMS.Web.Plugin.Link.pdb
+E:\Code\CMS.Web\plugins\link\obj\Debug\CMS.Web.Plugin.Link.csprojResolveAssemblyReference.cache
+D:\Working\Code\CMS.Web\bin\CMS.Web.Plugin.Link.dll
+D:\Working\Code\CMS.Web\bin\CMS.Web.Plugin.Link.pdb
+D:\Working\Code\CMS.Web\plugins\link\obj\Debug\CMS.Web.Plugin.Link.csprojResolveAssemblyReference.cache
+D:\Working\Code\CMS.Web\plugins\link\obj\Debug\CMS.Web.Plugin.Link.dll
+D:\Working\Code\CMS.Web\plugins\link\obj\Debug\CMS.Web.Plugin.Link.pdb
+E:\webs\Company\CMS.Web\bin\CMS.Web.Plugin.Link.dll
+E:\webs\Company\CMS.Web\bin\CMS.Web.Plugin.Link.pdb
+E:\webs\Company\CMS.Web\plugins\link\obj\Debug\CMS.Web.Plugin.Link.dll
+E:\webs\Company\CMS.Web\plugins\link\obj\Debug\CMS.Web.Plugin.Link.pdb
+E:\webs\Company\CMS.Web\plugins\link\obj\Debug\CMS.Web.Plugin.Link.csprojResolveAssemblyReference.cache
+E:\Company\CMS.Web\bin\CMS.Web.Plugin.Link.dll
+E:\Company\CMS.Web\bin\CMS.Web.Plugin.Link.pdb
+E:\Company\CMS.Web\plugins\link\obj\Debug\CMS.Web.Plugin.Link.csprojResolveAssemblyReference.cache
+E:\Company\CMS.Web\plugins\link\obj\Debug\CMS.Web.Plugin.Link.dll
+E:\Company\CMS.Web\plugins\link\obj\Debug\CMS.Web.Plugin.Link.pdb
+E:\Develop Space\.Net\Company\CMS.Web\bin\CMS.Web.Plugin.Link.dll
+E:\Develop Space\.Net\Company\CMS.Web\bin\CMS.Web.Plugin.Link.pdb
+E:\Develop Space\.Net\Company\CMS.Web\plugins\link\obj\Debug\CMS.Web.Plugin.Link.csprojResolveAssemblyReference.cache
+E:\Develop Space\.Net\Company\CMS.Web\plugins\link\obj\Debug\CMS.Web.Plugin.Link.dll
+E:\Develop Space\.Net\Company\CMS.Web\plugins\link\obj\Debug\CMS.Web.Plugin.Link.pdb

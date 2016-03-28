@@ -1,0 +1,29 @@
+D:\Working\CMS.Web\bin\CMS.Web.Plugin.Advert.dll
+D:\Working\CMS.Web\bin\CMS.Web.Plugin.Advert.pdb
+D:\Working\CMS.Web\plugins\advert\obj\Debug\CMS.Web.Plugin.Advert.dll
+D:\Working\CMS.Web\plugins\advert\obj\Debug\CMS.Web.Plugin.Advert.pdb
+D:\Working\CMS.Web\plugins\advert\obj\Debug\CMS.Web.Plugin.Advert.csprojResolveAssemblyReference.cache
+E:\Code\CMS.Web\bin\CMS.Web.Plugin.Advert.dll
+E:\Code\CMS.Web\bin\CMS.Web.Plugin.Advert.pdb
+E:\Code\CMS.Web\plugins\advert\obj\Debug\CMS.Web.Plugin.Advert.dll
+E:\Code\CMS.Web\plugins\advert\obj\Debug\CMS.Web.Plugin.Advert.pdb
+E:\Code\CMS.Web\plugins\advert\obj\Debug\CMS.Web.Plugin.Advert.csprojResolveAssemblyReference.cache
+D:\Working\Code\CMS.Web\bin\CMS.Web.Plugin.Advert.dll
+D:\Working\Code\CMS.Web\bin\CMS.Web.Plugin.Advert.pdb
+D:\Working\Code\CMS.Web\plugins\advert\obj\Debug\CMS.Web.Plugin.Advert.csprojResolveAssemblyReference.cache
+D:\Working\Code\CMS.Web\plugins\advert\obj\Debug\CMS.Web.Plugin.Advert.dll
+D:\Working\Code\CMS.Web\plugins\advert\obj\Debug\CMS.Web.Plugin.Advert.pdb
+E:\webs\Company\CMS.Web\bin\CMS.Web.Plugin.Advert.dll
+E:\webs\Company\CMS.Web\bin\CMS.Web.Plugin.Advert.pdb
+E:\webs\Company\CMS.Web\plugins\advert\obj\Debug\CMS.Web.Plugin.Advert.dll
+E:\webs\Company\CMS.Web\plugins\advert\obj\Debug\CMS.Web.Plugin.Advert.pdb
+E:\webs\Company\CMS.Web\plugins\advert\obj\Debug\CMS.Web.Plugin.Advert.csprojResolveAssemblyReference.cache
+E:\Company\CMS.Web\bin\CMS.Web.Plugin.Advert.dll
+E:\Company\CMS.Web\bin\CMS.Web.Plugin.Advert.pdb
+E:\Company\CMS.Web\plugins\advert\obj\Debug\CMS.Web.Plugin.Advert.dll
+E:\Company\CMS.Web\plugins\advert\obj\Debug\CMS.Web.Plugin.Advert.pdb
+E:\Develop Space\.Net\Company\CMS.Web\bin\CMS.Web.Plugin.Advert.dll
+E:\Develop Space\.Net\Company\CMS.Web\bin\CMS.Web.Plugin.Advert.pdb
+E:\Develop Space\.Net\Company\CMS.Web\plugins\advert\obj\Debug\CMS.Web.Plugin.Advert.csprojResolveAssemblyReference.cache
+E:\Develop Space\.Net\Company\CMS.Web\plugins\advert\obj\Debug\CMS.Web.Plugin.Advert.dll
+E:\Develop Space\.Net\Company\CMS.Web\plugins\advert\obj\Debug\CMS.Web.Plugin.Advert.pdb

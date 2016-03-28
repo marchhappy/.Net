@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="utf-8" />
+    <title>{site.seo_title}</title>
+    <meta name="keywords" content="{site.seo_keyword}" />
+    <meta name="description" content="{site.seo_description}" />    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="<%templateskin%>/plugin/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="<%templateskin%>/plugin/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="<%templateskin%>/plugin/pretty-photo/css/prettyPhoto.css" />
+    <link rel="stylesheet" href="<%templateskin%>/css/styleui.css" />	
+    <link rel="stylesheet" href="<%templateskin%>/plugin/animate.min.css" />
+    <!-- / CSS Files -->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="<%templateskin%>/js/html5shiv.js"></script>
+    <script src="<%templateskin%>/js/respond.min.js"></script>
+    <![endif]-->
+    <script src="<%templateskin%>/plugin/jquery-1.10.2.min.js"></script>
+    <script src="<%templateskin%>/plugin/bootstrap/js/bootstrap.min.js"></script>
+    <script src="<%templateskin%>/script/animate.js"></script>
+    <script src="<%templateskin%>/plugin/jquery.cuteTime.min.js"></script>
+    <script src="<%templateskin%>/script/script.js"></script>
+	<link type="text/css" rel="stylesheet" href="{config.webpath}scripts/artdialog/ui-dialog.css" />
+	<script type="text/javascript" src="{config.webpath}scripts/artdialog/dialog-plus-min.js"></script>
+</head>
+<body>
+    
+    <%template src="_headerui.html"%>
+	<script>SysNavnalSet(7);</script>
+	
+	<div class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <h1>联系我们</h1>
+                </div>
+                <div class="col-md-5">
+                    <ol class="breadcrumb pull-right">
+                        <li><a href="index.htm">首页</a></li>
+                        <li class="active">联系我们</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Google Map -->
+    
+    
+    <section class="content content-light">
+        <div class="container">
+            <!-- Contact form -->
+            <form id="feedback_form" method="post" class="contact-form" role="form" name="feedback_form" action="">
+                <h2 class="title-form">在线留言</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="txtUserName">姓名</label>
+                            <input type="text" class="form-control input-lg" id="txtUserName" name="txtUserName" placeholder="输入你的名字" />
+                        </div>
+                        <div class="form-group">
+                            <label for="txtTitle">主题</label>
+                            <input type="text" class="form-control input-lg" id="txtTitle" name="txtTitle" placeholder="输入消息主题" />
+                        </div>
+                        <div class="form-group">
+                            <label for="txtUserEmail">邮箱</label>
+                            <input type="email" class="form-control input-lg" id="txtUserEmail" name="txtUserEmail" placeholder="输入您的电子邮件地址" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="txtContent">消息</label>
+                            <textarea class="form-control" rows="11" id="txtContent" name="txtContent" placeholder="信息文本"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-right buttons-margin-horizontal">
+                    <input type="reset" class="btn btn-theme btn-gray" value="重新设置" />
+                    <input type="submit" class="btn btn-theme btn-green" value="提交" />
+                </p>
+            </form>
+			<script>
+				var submitedStat=false;
+				$('#feedback_form').submit(function(){
+					if(submitedStat==true) return;
+					submitedStat=true;
+					
+					$.ajax({
+						url: '{config.webpath}plugins/feedback/ajax.ashx?action=add&site={site.build_path}',
+						type: "POST",
+						timeout: 60000,
+						data: $("#feedback_form").serializeArray(),
+						dataType: "json",
+						success: function (data, type) {
+							submitedStat=false;
+							if (data.status == 1) {
+								$('#feedback_form')[0].reset();
+								var d = dialog({content:data.msg}).show();								
+								setTimeout(function () {
+									d.close().remove();
+								}, 2000);
+							} else {
+								dialog({title:'提示', content:data.msg, okValue:'确定', ok:function (){}}).showModal();
+							}
+						},
+						error: function(XMLHttpRequest, textStatus, errorThrown){
+							 submitedStat=false;
+							 dialog({title:'提示', content:"状态：" + textStatus + "；出错提示：" + errorThrown, okValue:'确定', ok:function (){}}).showModal();
+						}
+					});
+					
+					return false;
+				});
+			</script>
+            
+            <hr class="invisible" />
+            <hr class="invisible" />
+            
+            <%=get_article_content("signcontact")%>
+        </div>
+    </section>
+	
+	<%template src="_footerui.html"%>
+        
+</body>
+</html>

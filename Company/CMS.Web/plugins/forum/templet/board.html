@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>互动论坛 - {site.name}</title>
+<meta content="{site.seo_keyword}" name="keywords" />
+<meta content="{site.seo_description}" name="description" />
+<link type="text/css" rel="stylesheet" href="../images/forum.css" />
+<link type="text/css" rel="stylesheet" href="{config.webpath}plugins/forum/images/forum.css" />
+<link type="text/css" rel="stylesheet" href="<%templateskin="main"%>/css/style.css" />
+<script type="text/javascript" src="{config.webpath}scripts/jquery/jquery-1.11.2.min.js"></script>
+</head>
+
+<body>
+<!--Header-->
+<%template skin="main" src="_header.html"%>
+<!--/Header-->
+<div class="mainpage">
+<div class="section" >
+	<div class="sitemap">当前位置：<a href="<%linkurl("index")%>">首页</a> > <a href="<%linkurl("forum")%>">论坛</a></div>
+	<div class="board">
+    	<div class="board-title">互动论坛</div>
+        <div class="board-main">
+        	<ul class="board-list">
+            	<%set DataTable boardList=new CMS.Web.Plugin.Forum.board().get_board_list()%>
+                <%foreach(DataRow dr in boardList.Rows)%>
+            	<li>
+                	<div class="boarditem-left">
+                    	<div class="image">
+                        	<a href="<%linkurl("forumpostlist",{dr[id]})%>">
+                            	<%if({dr[img_url]}!="")%>
+                                <img src="{dr[img_url]}" style="width:64px; height:64px;">
+                                <%else%>
+                                <img src="{config.webpath}plugins/forum/images/forum-board-ico.png" style="width:64px; height:64px;">
+                                <%/if%>
+                            </a>
+                        </div>
+                        <div class="txt">
+                        	<div class="title"><a href="<%linkurl("forumpostlist",{dr[id]})%>">{dr[boardname]}</a></div>
+                            <div class="dec"><%cutstring({dr[content]},98)%></div>
+                            <div class="moderator" style=""><span>版主：</span>{dr[moderator_list]}</div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="boarditem-right">
+                    	<div class="postcount">主题数：{dr[subject_count]} / 帖子数：{dr[post_count]}</div>
+                    </div>
+                </li>
+                <%/foreach%>
+            </ul>
+        </div>
+    </div>
+</div>
+</div>
+<!--Footer-->
+<%template skin="main" src="_footer.html"%>
+<!--/Footer-->	
+</body>
+</html>
